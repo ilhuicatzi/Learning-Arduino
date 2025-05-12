@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router"
-import {Home, ArduinoBasics, ProgrammingArduino} from "@/pages"
+import {Home, ArduinoBasics, ProgrammingArduino, Examples} from "@/pages"
 import Navbar from "./components/navbar/Navbar"
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/arduino-basics" element={<ArduinoBasics />} />
         <Route path="/programming-arduino" element={<ProgrammingArduino />} />
+        <Route path="/examples" element={<Examples />} />
       </Routes>
     </div>
   )
