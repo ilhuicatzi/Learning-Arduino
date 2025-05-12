@@ -1,4 +1,5 @@
 import { ModeToggle } from "./ModeToggle";
+import { Link } from "react-router";
 
 function Navbar() {
   return (
@@ -8,9 +9,32 @@ function Navbar() {
       </div>
       <div className="flex justify-center items-center">
         <ul className="flex gap-4">
-          <li>Inicio</li>
-          <li>Fundamentos</li>
-          <li>Programación</li>
+          <li>
+            <Link to="/" className="text-blue-500 hover:text-blue-700">
+              Inicio
+            </Link>
+          </li>
+          <li>
+            <Link to="/arduino-basics" className="text-blue-500 hover:text-blue-700">
+              Fundamentos
+            </Link>
+          </li>
+          <li>
+            <Link to="/programming-arduino" className="text-blue-500 hover:text-blue-700">
+              Programación
+            </Link>
+          </li>
+          <li>
+            <Link to="/examples" className="text-blue-500 hover:text-blue-700">
+              Ejemplos
+            </Link>
+          </li>
+          <li>
+            <Link to="/components" className="text-blue-500 hover:text-blue-700">
+              Componentes
+            </Link>
+          </li>
+          
         </ul>
       </div>
       <div className="flex justify-end items-center">

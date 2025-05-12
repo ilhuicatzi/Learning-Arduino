@@ -1,3 +1,5 @@
 export { default as Home } from './HomePage'
 export { default as ArduinoBasics } from './ArduinoBasicsPage'
 export { default as ProgrammingArduino } from './ProgrammingArduinoPage'
+export { default as Examples } from './ExamplesPage'
+export { default as Componentes } from './ComponentesPage'
